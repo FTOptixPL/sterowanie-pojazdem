@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>Faceplate_DemoUserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="9ac0348cc82412871ce1859a27535ef0" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="01a7e8933afd7c95fe894b0859308138" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="3d7f4211473024df401f811cae6fde88" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="69e20cf80f6b191a163275e24b60cce2" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="60b43fbcc3801e0bef08daa435dce5d7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="366f43d6a06a191c821641410f3abf3e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="019ef1689db4134fd2884e3a29ead0c5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Faceplate_Demo" guid="56f4a6b2e9cd875830aed2b8764c4167" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

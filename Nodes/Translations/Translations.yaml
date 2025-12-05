@@ -1,0 +1,43 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [28,3],
+    "Body": [
+     "","en-US","pl-PL",
+     "Car","Car","Samochód",
+     "Tractor","Tractor","Traktor",
+     "Motor","Motor","Motocykl",
+     "Faceplates","Faceplates","Faceplate'y",
+     "Styles","Styles","Style",
+     "Brake pedal","Brake pedal","Pedał hamulca",
+     "Accelerator pedal","Accelerator pedal","Pedał gazu",
+     "Engine Switch","Engine Switch","Włącznik silnika",
+     "Engine","Engine","Silnik",
+     "Brake","Brake","Hamulec",
+     "Accelerator","Accelerator","Gaz",
+     "OFF","OFF","OFF",
+     "{0:d} km/h","{0:d} km/h","{0:d} km/h",
+     "X","X","X",
+     "Alarm","Alarm","Alarm",
+     "Niebezpieczna prędkość","Unsafe speed","Niebezpieczna prędkość",
+     "Uwaga!!!","Attention!!!","Uwaga!!!",
+     "Faceplate Demo","Faceplate Demo","Faceplate Demo",
+     "Default","Default","Domyślny",
+     "MaterialDark","MaterialDark","MaterialDark",
+     "ISA101","ISA101","ISA101",
+     "FriendlyLight","FriendlyLight","FriendlyLight",
+     "FriendlyDark","FriendlyDark","FriendlyDark",
+     "SpaceShip","SpaceShip","StatekKosmiczny",
+     "Car Alarm","Car Alarm","Alarm Samochód",
+     "Motor Alarm","Motor Alarm","Alarm Motocykl",
+     "Tractor Alarm","Tractor Alarm","Alarm Traktor"
+    ]
+   }

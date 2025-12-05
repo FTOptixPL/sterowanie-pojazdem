@@ -1,0 +1,108 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Motor
+  Id: g=69e20cf80f6b191a163275e24b60cce2
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Engine
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Accelerator
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Brake
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Title
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Type"
+  - Name: Sound
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "engine_loop"
+- Name: Motor1
+  Id: g=db2dad99bd5234c10677817dbe6b22cc
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Engine
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Accelerator
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Brake
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Title
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Car"
+  - Name: Sound
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "engine_loop_1.mp3"
+- Name: Motor2
+  Id: g=d5b31f41bc4341d66797c2d6a4325cc7
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: Engine
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Accelerator
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Brake
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Title
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tractor"
+  - Name: Sound
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "engine_loop_2.mp3"
+- Name: Motor3
+  Id: g=e7426e598ff837b20a55ce2afcd66508
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Engine
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Accelerator
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Brake
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Title
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor"
+  - Name: Sound
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "engine_loop_3.mp3"
+- Name: Locale
+  Id: g=4ca05bbe1440fb48648a61cf2d80fc70
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
