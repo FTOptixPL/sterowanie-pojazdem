@@ -8,12 +8,13 @@ Demonstracyjny projekt HMI w FactoryTalk Optix pokazujący:
 - Wielojęzyczność – zmiana języka jednym przyciskiem.
 
 Projekt nie wymaga PLC – cała logika działa lokalnie w NetLogic Runtime (C#).
+<img width="1601" height="984" alt="image" src="https://github.com/user-attachments/assets/282b5ace-9c07-4417-b0a4-01e4f6278fb2" />
 
 Najważniejsze funkcje
 
 Faceplate Template: wspólny typ dla jednostek napędowych (pojazdów), ułatwia skalowanie i re‑użycie.
 
-#NetLogic – SpeedHandler:
+# NetLogic – SpeedHandler:
 PID (Kp/Ki/Kd) sterujący prędkością Speed na podstawie stanu: Engine, Accelerator, Brake.
 Pętla sterowania z interwałem updateIntervalMs.
 Inercja (powolne wytracanie prędkości) i szybkie hamowanie przy wyłączonym silniku.
